@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+        margin:0 ;
+        padding: auto;
+        overflow-x: hidden;
+        font-family: "Times New Roman", Times, sans-serif;
+
+    }
+    i{
+            cursor: pointer;
+            /* height: 10px; */
+        }
+        .profile-img{
+            display: flex;
+            gap: 190px;
+           
+        }
+        .profile-img img{
+            /* border-radius: 50%; */
+            height: 240px;
+            width: 200px;
+            margin-left: 78px;
+            margin-top: 10px;
+            outline: 3px solid rgb(6, 87, 249);
+        }
+    </style>
+</head>
+<body style="background-color:rgb(198, 236, 252);;">
+    <header style=>
+        <nav style="">
+            <ol style="display: flex;;list-style-type: none;justify-content: flex-end;gap: 23px;padding-top: 40px;margin-right: 30px;">
+            <!-- <img style="height: 90px;;width: 100px;margin-top: -28px;margin-right: 900px;" src="C:\Users\91730\Pictures\Screenshots\needs_for_deeds.png"  class="logo"> -->
+           
+               <!-- <li></li> -->
+                <li><a href="" style="text-decoration: none;" >HOME</a></li>
+                <li><a href="" style="text-decoration: none;">ADDLISTING</a></li>
+                <li><a href="" style="text-decoration: none;">CHIT-CHAT</a></li>
+                <li><a href="" style="text-decoration: none;">CONTACT</a></li>
+                
+            </ol>
+            <!-- <ol style="display: flex;; justify-content: flex-end;gap :90px">
+                <li><a href="" style="text-decoration: none;">HOME</a></li>
+                <li><a href="">ADDLIST</a></li>
+                <li><a href="">CHIT-CHAT</a></li>
+                <li><a href="">CONTACT</a></li>
+                
+            </ol> -->
+        </nav>
+   </header><br>
+    <div class="profile-img" style="margin-top: 35px;">
+       <img src="data:image/jpeg;base64,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">
+       <div style="width: 80%;margin-top: 10px;">
+       <p style="font-size: 30px;"><b>Kailashi Devi</b></p>
+       <p style="margin-top: 5px;">Age 82, from Idaho Falls, Idaho.</p>
+      <br><br>  
+       <div class="container" style="width:30% ;height: 300px;">
+        <p style="font-size: 20px;border-bottom: 1px solid #000;margin-bottom: 13px;"><b>About</b></p><br>
+        <!-- <p>-------------------------</p> -->
+        <div style="display: flex;justify-content: space-between;">
+        <p><b>User Id</b></p>
+        <p style="color: rgb(107, 6, 249);">Kailashi123</p>
+        </div><br>
+      <div style="display: flex;justify-content: space-between;">
+        <p><b>Name</b></p><br>
+        <p style="color: rgb(107, 6, 249);">Kailashi Devi</p>
+      </div><br>
+       <div style="display: flex;justify-content: space-between;">
+        <p><b>Age</b></p><br>
+        <p style="color: rgb(107, 6, 249);">82</p>
+    </div><br>
+      <div style="display: flex;justify-content: space-between;">   
+        <p><b>Email</b></p><br>
+        <p style="color: rgb(107, 6, 249);">Kailashi@gmail.com</p>
+       </div><br>
+     <div style="display: flex;justify-content: space-between;"> 
+            <p><b>phone</b></p>
+        <p style="color: rgb(107, 6, 249);">9012367890</p>
+       </div>
+        
+       </div>
+      </div>
+    </div>
+    <div>
+        <p class="content"style="margin-left:52px">
+            <!-- Age 82, from Idaho Falls, Idaho.<br> -->
+          <br>  This past year, we’ve spent a lot of time searching out our family
+           and family members and going to the temple to pray for them. Some churches believe that if they weren’t baptized in a church while they were alive, too bad for them, they go to hell. 
+            <br><br>
+            <b>   <i>   I truly wants a family with whom I can spend my rest of life.</i> 
+           </b>
+        </p>
+    </div>
+</body>
+</html>
